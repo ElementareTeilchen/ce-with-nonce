@@ -69,5 +69,5 @@ ddev exec v13/vendor/bin/typo3
 
 To remove a DDEV project you can use the following command on CLI
 ```
-$ ddev delete -Oy
+ddev delete -Oy
 ```
