@@ -1,0 +1,13 @@
+name: elementareteilchen/js-with-nonce
+typeName: elementareteilchen_jswithnonce
+group: special
+prefixFields: true
+prefixType: full
+fields:
+  -
+    identifier: header
+    useExistingField: true
+    description: "Not visible in Frontend"
+  -
+    identifier: bodytext
+    useExistingField: true

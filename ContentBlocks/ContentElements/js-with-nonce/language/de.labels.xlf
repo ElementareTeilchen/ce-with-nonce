@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-07-12T08:43:40+00:00" product-name="elementareteilchen/js-with-nonce">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>Inline javascript block with nonce for CSP check</source>
+				<target>Inline-Javascript-Block mit nonce-Attribut für CSP check</target>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>Adds new content element for inserting javascript block. This javascript block will get a nonce and can therefore be CSP conform</source>
+				<target>Fügt ein neues Inhaltselement zum einfügen von Javascript hinzu. Dieser Javascript-Block bekommt eine nonce, worduch das inline-javascript CSP-Konform werden kann</target>
+			</trans-unit>
+			<trans-unit id="header.description" resname="header.description">
+				<source>Not visible in Frontend</source>
+				<target>Diese Überschrift wird nicht im Frontend dargestellt</target>
+			</trans-unit>
+			<trans-unit id="bodytext.label" resname="bodytext.label">
+				<source>Javascript</source>
+				<target>Javascript</target>
+			</trans-unit>
+			<trans-unit id="bodytext.description" resname="bodytext.description">
+				<source>Add javascript without &lt;script&gt;&lt;/script&gt; tags. They will be added including nonce automatically</source>
+				<target>Das Javascript muss ohne &lt;script&gt;&lt;/script&gt; tags eingefügt werden. Die Tags (inklusive CSP-nonce) werden automatisch hinzugefügt</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" original="labels.xlf" datatype="plaintext" product-name="elementareteilchen/css-with-nonce" date="2025-02-17T16:02:20+01:00">
+		<header></header>
+		<body>
+			<trans-unit id="title">
+				<source>Inline css block with nonce for CSP check</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Adds new content element for inserting css block. This css block will get a nonce and can therefore be CSP conform</source>
+			</trans-unit>
+			<trans-unit id="header.description">
+				<source>Not visible in Frontend</source>
+			</trans-unit>
+			<trans-unit id="bodytext.label">
+				<source>CSS</source>
+			</trans-unit>
+			<trans-unit id="bodytext.description">
+				<source>Add css without &lt;style&gt;&lt;/style&gt; tags. They will be added including nonce automatically</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

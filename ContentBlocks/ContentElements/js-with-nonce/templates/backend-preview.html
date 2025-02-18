@@ -1,0 +1,15 @@
+<html
+    xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers"
+    data-namespace-typo3-fluid="true"
+>
+
+<f:layout name="Preview"/>
+
+<f:section name="Header">
+    <be:link.editRecord uid="{data.uid}" table="{data.mainType}">{data.header}</be:link.editRecord>
+</f:section>
+
+<f:section name="Content">
+    <f:asset.css identifier="content-block-elementareteilchen-elementareteilchen/js-with-nonce-be" href="{cb:assetPath()}/backend.css"/>
+    <pre class="ce-js-with-nonce__pre">{data.bodytext -> f:format.crop(maxCharacters: '300', respectWordBoundaries: true, append: '....')}</pre>
+</f:section>
