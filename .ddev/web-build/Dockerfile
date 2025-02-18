@@ -10,7 +10,7 @@ RUN echo "<li><h2>TYPO3 12.4 LTS</h2><a href="https://v12.${DDEV_SITENAME}.ddev.
 RUN echo "<li><h2>TYPO3 13.4 LTS</h2><a href="https://v13.${DDEV_SITENAME}.ddev.site/">Frontend</a> | <a href="https://v13.${DDEV_SITENAME}.ddev.site/typo3/">Backend</a></li>" >> /var/www/html/index.html
 RUN echo "</ul>" >> /var/www/html/index.html
 RUN echo "<hr>" >> /var/www/html/index.html
-RUN echo "<h3>TYPO3 Backend</h3><ul><li><b>User:</b> <code>admin</code></li><li><b>Password:</b> <code>Password:joh316</code> (also Install Tool)</li></ul>" >> /var/www/html/index.html
+RUN echo "<h3>TYPO3 Backend</h3><ul><li><b>User:</b> <code>admin</code></li><li><b>Password:</b> <code>Password:Password1!</code> (also Install Tool)</li></ul>" >> /var/www/html/index.html
 RUN echo "<hr>" >> /var/www/html/index.html
 RUN echo "</body></html>" >> /var/www/html/index.html
 
