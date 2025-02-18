@@ -25,7 +25,8 @@
         }
     },
     "replace": {
-        "typo3-ter/ce_with_nonce": "*"
+        "typo3-ter/ce_with_nonce": "*",
+        "elementareteilchen/ce-js-with-nonce": "*"
     },
     "extra": {
         "typo3/cms": {
