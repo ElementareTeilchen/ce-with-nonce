@@ -17,7 +17,7 @@
     ],
     "require": {
         "friendsoftypo3/content-blocks": "*",
-        "typo3/cms-core": "^12.0 || ^13.0"
+        "typo3/cms-core": "^13.0"
     },
     "autoload": {
         "psr-4": {
